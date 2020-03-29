@@ -30,7 +30,7 @@ const codes = [
   "celery",
   "blueberry"
 ];
-const percentages = [5, 20, 35, 50, 60];
+const percentages = [5, 10, 20, 35];
 
 /**********************
  * DISCOUNTS
