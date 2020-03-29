@@ -2,7 +2,7 @@
   {
     "id": "tra:14",
     "title": "React Bootcamp",
-    "objectives": "master react",
+    "objectives": "To build a solid foundation in React to master advanced real-world React",
     "curriculum": "-Thinking in React, Modern JavaScript, Routing & Data Fetching\n-Forms, Authentication, and Hooks\n-Redux Fundamentals, deployment to production\n-Advanced React patterns and performance.\n-GraphQL 101 & Real-World Testing in React.\n-Building a UI component library",
     "startDate": "2019-12-04T07:00:00.000Z",
     "discounts": []
@@ -10,7 +10,7 @@
   {
     "id": "tra:21",
     "title": "React Fundamentals",
-    "objectives": "learning basics of react",
+    "objectives": "To have a solid foundation in React and its programming model",
     "startDate": "2019-12-04T07:00:00.000Z",
     "curriculum": "-Thinking in React, Modern JavaScript, Routing & Data Fetching\n-Forms, Authentication, and Hooks\n-Redux Fundamentals, deployment to production",
     "discounts": []
@@ -18,7 +18,7 @@
   {
     "id": "tra:22",
     "title": "Advanced React",
-    "objectives": "master react",
+    "objectives": "To master advanced real-world React",
     "startDate": "2019-12-09T07:00:00.000Z",
     "curriculum": "-Advanced React patterns and performance.\n-GraphQL 101 & Real-World Testing in React.\n-Building a UI component library",
     "discounts": []
