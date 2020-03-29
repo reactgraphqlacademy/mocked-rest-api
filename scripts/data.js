@@ -7,7 +7,7 @@ trainings.forEach((training, index) => {
 });
 
 const basePath = "/v1";
-const baseUrl = `https://mockedrestapi.reactgraphql.academy${basePath}`;
+const baseUrl = `https://restapi.reactgraphql.academy${basePath}`;
 
 const dir = `${__dirname}/../public${basePath}`;
 rimraf.sync(dir);
@@ -46,12 +46,13 @@ for (let index = 1; index <= 10; index++) {
     id: discountId,
     code: `${code}${discountPercentage}`,
     discountPercentage,
-    training: `${baseUrl}/training/${randomTraining.id}` // `${baseUrl}/training/${randomTraining.id}.json`
+    expiresOn: "2019-12-31T07:00:00.000Z",
+    training: `${baseUrl}/trainings/${randomTraining.id}` // `${baseUrl}/training/${randomTraining.id}.json`
   });
-  randomTraining.discounts.push(`${baseUrl}/discount/${discountId}`); // `${baseUrl}/discount/${discountId}.json`
+  randomTraining.discounts.push(`${baseUrl}/discounts/${discountId}`); // `${baseUrl}/discount/${discountId}.json`
 }
 
-const discountPath = `${dir}/discount`;
+const discountPath = `${dir}/discounts`;
 fs.mkdirSync(discountPath);
 const discountIndexPath = `${discountPath}.json`;
 fs.writeFileSync(discountIndexPath, JSON.stringify(discounts, null, 4));
@@ -65,7 +66,7 @@ discounts.forEach(discount => {
  * TRAINING
  *  */
 
-const trainingPath = `${dir}/training`;
+const trainingPath = `${dir}/trainings`;
 fs.mkdirSync(trainingPath);
 
 const trainingIndexPath = `${trainingPath}.json`;

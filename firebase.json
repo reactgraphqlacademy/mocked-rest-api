@@ -3,59 +3,59 @@
     "public": "public",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
-      { "source": "/v1/training{,/}", "destination": "/v1/training.json" },
+      { "source": "/v1/trainings{,/}", "destination": "/v1/trainings.json" },
       {
-        "source": "/v1/training/tra:1{,/}",
-        "destination": "/v1/training/tra:1.json"
+        "source": "/v1/trainings/tra:1{,/}",
+        "destination": "/v1/trainings/tra:1.json"
       },
       {
-        "source": "/v1/training/tra:2{,/}",
-        "destination": "/v1/training/tra:2.json"
+        "source": "/v1/trainings/tra:2{,/}",
+        "destination": "/v1/trainings/tra:2.json"
       },
       {
-        "source": "/v1/training/tra:3{,/}",
-        "destination": "/v1/training/tra:3.json"
+        "source": "/v1/trainings/tra:3{,/}",
+        "destination": "/v1/trainings/tra:3.json"
       },
-      { "source": "/v1/discount{,/}", "destination": "/v1/discount.json" },
+      { "source": "/v1/discounts{,/}", "destination": "/v1/discounts.json" },
       {
-        "source": "/v1/discount/dis:1{,/}",
-        "destination": "/v1/discount/dis:1.json"
-      },
-      {
-        "source": "/v1/discount/dis:2{,/}",
-        "destination": "/v1/discount/dis:2.json"
+        "source": "/v1/discounts/dis:1{,/}",
+        "destination": "/v1/discounts/dis:1.json"
       },
       {
-        "source": "/v1/discount/dis:3{,/}",
-        "destination": "/v1/discount/dis:3.json"
+        "source": "/v1/discounts/dis:2{,/}",
+        "destination": "/v1/discounts/dis:2.json"
       },
       {
-        "source": "/v1/discount/dis:4{,/}",
-        "destination": "/v1/discount/dis:4.json"
+        "source": "/v1/discounts/dis:3{,/}",
+        "destination": "/v1/discounts/dis:3.json"
       },
       {
-        "source": "/v1/discount/dis:5{,/}",
-        "destination": "/v1/discount/dis:5.json"
+        "source": "/v1/discounts/dis:4{,/}",
+        "destination": "/v1/discounts/dis:4.json"
       },
       {
-        "source": "/v1/discount/dis:6{,/}",
-        "destination": "/v1/discount/dis:6.json"
+        "source": "/v1/discounts/dis:5{,/}",
+        "destination": "/v1/discounts/dis:5.json"
       },
       {
-        "source": "/v1/discount/dis:7{,/}",
-        "destination": "/v1/discount/dis:7.json"
+        "source": "/v1/discounts/dis:6{,/}",
+        "destination": "/v1/discounts/dis:6.json"
       },
       {
-        "source": "/v1/discount/dis:8{,/}",
-        "destination": "/v1/discount/dis:8.json"
+        "source": "/v1/discounts/dis:7{,/}",
+        "destination": "/v1/discounts/dis:7.json"
       },
       {
-        "source": "/v1/discount/dis:9{,/}",
-        "destination": "/v1/discount/dis:9.json"
+        "source": "/v1/discounts/dis:8{,/}",
+        "destination": "/v1/discounts/dis:8.json"
       },
       {
-        "source": "/v1/discount/dis:10{,/}",
-        "destination": "/v1/discount/dis:10.json"
+        "source": "/v1/discounts/dis:9{,/}",
+        "destination": "/v1/discounts/dis:9.json"
+      },
+      {
+        "source": "/v1/discounts/dis:10{,/}",
+        "destination": "/v1/discounts/dis:10.json"
       }
     ]
   }
