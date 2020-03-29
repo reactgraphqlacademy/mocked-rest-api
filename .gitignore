@@ -38,10 +38,5 @@ jspm_packages
 .node_repl_history
 
 
-#build
-dist
-build
-public 
-
 .idea
 
