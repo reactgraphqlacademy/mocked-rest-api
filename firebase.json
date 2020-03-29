@@ -55,7 +55,7 @@
       },
       {
         "source": "/v1/discounts/dis:430{,/}",
-        "destination": "/v1/discounts/dis:4210.json"
+        "destination": "/v1/discounts/dis:430.json"
       }
     ]
   }
