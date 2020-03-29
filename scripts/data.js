@@ -42,7 +42,7 @@ for (let index = 1; index <= 10; index++) {
     id: discountId,
     code: `${code}${discountPercentage}`,
     discountPercentage,
-    expiresOn: "2019-12-31T07:00:00.000Z",
+    expiresOn: "2017-12-31T07:00:00.000Z",
     training: `${baseUrl}/trainings/${randomTraining.id}` // `${baseUrl}/training/${randomTraining.id}.json`
   });
   randomTraining.discounts.push(`${baseUrl}/discounts/${discountId}`); // `${baseUrl}/discount/${discountId}.json`
