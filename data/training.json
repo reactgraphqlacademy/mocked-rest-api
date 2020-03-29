@@ -1,16 +1,23 @@
 [
   {
-    "id": "tra_1",
-    "title": "React Fundamentals",
-    "objectives": "learning basics of react",
-    "curriculum": "- a, -b, ",
-    "discounts": ["dis1", "dis:2"]
-  },
-  {
-    "id": "tra_2",
+    "id": "tra:1",
     "title": "React Bootcamp",
     "objectives": "master react",
-    "curriculum": "- a, -b, -c ",
-    "discounts": ["dis:3"]
+    "curriculum": "-Thinking in React, Modern JavaScript, Routing & Data Fetching\n-Forms, Authentication, and Hooks\n-Redux Fundamentals, deployment to production\n-Advanced React patterns and performance.\n-GraphQL 101 & Real-World Testing in React.\n-Building a UI component library",
+    "discounts": []
+  },
+  {
+    "id": "tra:2",
+    "title": "React Fundamentals",
+    "objectives": "learning basics of react",
+    "curriculum": "-Thinking in React, Modern JavaScript, Routing & Data Fetching\n-Forms, Authentication, and Hooks\n-Redux Fundamentals, deployment to production",
+    "discounts": []
+  },
+  {
+    "id": "tra:3",
+    "title": "Advanced React",
+    "objectives": "master react",
+    "curriculum": "-Advanced React patterns and performance.\n-GraphQL 101 & Real-World Testing in React.\n-Building a UI component library",
+    "discounts": []
   }
 ]

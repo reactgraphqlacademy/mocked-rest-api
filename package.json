@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "node scripts/data.js",
+    "predeploy": "yarn build",
     "deploy": "./node_modules/.bin/firebase deploy --only hosting"
   },
   "repository": {
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/reactgraphqlacademy/mocked-rest-api#readme",
   "dependencies": {
-    "firebase-tools": "^7.16.1"
+    "firebase-tools": "^7.16.1",
+    "rimraf": "^3.0.2"
   }
 }
