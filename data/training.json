@@ -1,0 +1,16 @@
+[
+  {
+    "id": "tra_1",
+    "title": "React Fundamentals",
+    "objectives": "learning basics of react",
+    "curriculum": "- a, -b, ",
+    "discounts": ["dis1", "dis:2"]
+  },
+  {
+    "id": "tra_2",
+    "title": "React Bootcamp",
+    "objectives": "master react",
+    "curriculum": "- a, -b, -c ",
+    "discounts": ["dis:3"]
+  }
+]

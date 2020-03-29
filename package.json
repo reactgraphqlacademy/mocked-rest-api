@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "node scripts/data.js",
     "deploy": "./node_modules/.bin/firebase deploy --only hosting"
   },
   "repository": {
