@@ -1,6 +1,6 @@
 [
   {
-    "id": "tra:1",
+    "id": "tra:14",
     "title": "React Bootcamp",
     "objectives": "master react",
     "curriculum": "-Thinking in React, Modern JavaScript, Routing & Data Fetching\n-Forms, Authentication, and Hooks\n-Redux Fundamentals, deployment to production\n-Advanced React patterns and performance.\n-GraphQL 101 & Real-World Testing in React.\n-Building a UI component library",
@@ -8,7 +8,7 @@
     "discounts": []
   },
   {
-    "id": "tra:2",
+    "id": "tra:21",
     "title": "React Fundamentals",
     "objectives": "learning basics of react",
     "startDate": "2019-12-04T07:00:00.000Z",
@@ -16,7 +16,7 @@
     "discounts": []
   },
   {
-    "id": "tra:3",
+    "id": "tra:22",
     "title": "Advanced React",
     "objectives": "master react",
     "startDate": "2019-12-09T07:00:00.000Z",

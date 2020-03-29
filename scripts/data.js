@@ -2,10 +2,6 @@ const fs = require("fs");
 const rimraf = require("rimraf");
 
 const trainings = require("../data/training.json");
-trainings.forEach((training, index) => {
-  training.id = `tra:${index + 1}`;
-});
-
 const basePath = "/v1";
 const baseUrl = `https://restapi.reactgraphql.academy${basePath}`;
 
@@ -41,7 +37,7 @@ for (let index = 1; index <= 10; index++) {
   const code = randomItem(codes);
   const discountPercentage = randomItem(percentages);
   const randomTraining = randomItem(trainings);
-  const discountId = `dis:${index}`;
+  const discountId = `dis:${index + 420}`;
   discounts.push({
     id: discountId,
     code: `${code}${discountPercentage}`,
