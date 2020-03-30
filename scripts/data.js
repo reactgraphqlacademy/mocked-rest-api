@@ -2,7 +2,7 @@ const fs = require("fs");
 const rimraf = require("rimraf");
 
 const trainings = require("../data/training.json");
-const basePath = "/v1";
+const basePath = "/api/rest";
 const baseUrl = `https://restapi.reactgraphql.academy${basePath}`;
 
 const dir = `${__dirname}/../public${basePath}`;

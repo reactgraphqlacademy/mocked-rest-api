@@ -3,59 +3,65 @@
     "public": "public",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
-      { "source": "/v1/trainings{,/}", "destination": "/v1/trainings.json" },
       {
-        "source": "/v1/trainings/tra:14{,/}",
-        "destination": "/v1/trainings/tra:14.json"
+        "source": "/api/rest/trainings{,/}",
+        "destination": "/api/rest/trainings.json"
       },
       {
-        "source": "/v1/trainings/tra:21{,/}",
-        "destination": "/v1/trainings/tra:21.json"
+        "source": "/api/rest/trainings/tra:14{,/}",
+        "destination": "/api/rest/trainings/tra:14.json"
       },
       {
-        "source": "/v1/trainings/tra:22{,/}",
-        "destination": "/v1/trainings/tra:22.json"
-      },
-      { "source": "/v1/discounts{,/}", "destination": "/v1/discounts.json" },
-      {
-        "source": "/v1/discounts/dis:421{,/}",
-        "destination": "/v1/discounts/dis:421.json"
+        "source": "/api/rest/trainings/tra:21{,/}",
+        "destination": "/api/rest/trainings/tra:21.json"
       },
       {
-        "source": "/v1/discounts/dis:422{,/}",
-        "destination": "/v1/discounts/dis:422.json"
+        "source": "/api/rest/trainings/tra:22{,/}",
+        "destination": "/api/rest/trainings/tra:22.json"
       },
       {
-        "source": "/v1/discounts/dis:423{,/}",
-        "destination": "/v1/discounts/dis:423.json"
+        "source": "/api/rest/discounts{,/}",
+        "destination": "/api/rest/discounts.json"
       },
       {
-        "source": "/v1/discounts/dis:424{,/}",
-        "destination": "/v1/discounts/dis:424.json"
+        "source": "/api/rest/discounts/dis:421{,/}",
+        "destination": "/api/rest/discounts/dis:421.json"
       },
       {
-        "source": "/v1/discounts/dis:425{,/}",
-        "destination": "/v1/discounts/dis:425.json"
+        "source": "/api/rest/discounts/dis:422{,/}",
+        "destination": "/api/rest/discounts/dis:422.json"
       },
       {
-        "source": "/v1/discounts/dis:426{,/}",
-        "destination": "/v1/discounts/dis:426.json"
+        "source": "/api/rest/discounts/dis:423{,/}",
+        "destination": "/api/rest/discounts/dis:423.json"
       },
       {
-        "source": "/v1/discounts/dis:427{,/}",
-        "destination": "/v1/discounts/dis:427.json"
+        "source": "/api/rest/discounts/dis:424{,/}",
+        "destination": "/api/rest/discounts/dis:424.json"
       },
       {
-        "source": "/v1/discounts/dis:428{,/}",
-        "destination": "/v1/discounts/dis:428.json"
+        "source": "/api/rest/discounts/dis:425{,/}",
+        "destination": "/api/rest/discounts/dis:425.json"
       },
       {
-        "source": "/v1/discounts/dis:429{,/}",
-        "destination": "/v1/discounts/dis:429.json"
+        "source": "/api/rest/discounts/dis:426{,/}",
+        "destination": "/api/rest/discounts/dis:426.json"
       },
       {
-        "source": "/v1/discounts/dis:430{,/}",
-        "destination": "/v1/discounts/dis:430.json"
+        "source": "/api/rest/discounts/dis:427{,/}",
+        "destination": "/api/rest/discounts/dis:427.json"
+      },
+      {
+        "source": "/api/rest/discounts/dis:428{,/}",
+        "destination": "/api/rest/discounts/dis:428.json"
+      },
+      {
+        "source": "/api/rest/discounts/dis:429{,/}",
+        "destination": "/api/rest/discounts/dis:429.json"
+      },
+      {
+        "source": "/api/rest/discounts/dis:430{,/}",
+        "destination": "/api/rest/discounts/dis:430.json"
       }
     ]
   }
