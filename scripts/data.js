@@ -2,13 +2,15 @@ const fs = require("fs");
 const rimraf = require("rimraf");
 
 const trainings = require("../data/training.json");
-const basePath = "/api/rest";
+const basePath = "/api";
 const baseUrl = `https://restapi.reactgraphql.academy${basePath}`;
 
-const dir = `${__dirname}/../public${basePath}`;
+let dir = `${__dirname}/../public${basePath}`;
 rimraf.sync(dir);
 
 if (!fs.existsSync(dir)) {
+  fs.mkdirSync(dir);
+  dir = dir + "/rest";
   fs.mkdirSync(dir);
 }
 
