@@ -2,17 +2,27 @@ const fs = require("fs");
 const rimraf = require("rimraf");
 
 const trainings = require("../data/training.json");
-const basePath = "/api";
-const baseUrl = `https://api.reactgraphql.academy${basePath}`;
 
-let dir = `${__dirname}/../public${basePath}`;
-rimraf.sync(dir);
+let dir = `${__dirname}/../public`;
 
 if (!fs.existsSync(dir)) {
   fs.mkdirSync(dir);
-  dir = dir + "/rest";
-  fs.mkdirSync(dir);
 }
+
+let basePath = "/api";
+dir = `${dir}${basePath}`;
+rimraf.sync(dir);
+fs.mkdirSync(dir);
+
+basePath = basePath + "/rest";
+dir = dir + "/rest";
+
+if (!fs.existsSync(dir)) {
+  fs.mkdirSync(dir);
+} else {
+}
+
+const baseUrl = `https://api.reactgraphql.academy${basePath}`;
 
 function randomItem(items) {
   return items[Math.floor(Math.random() * items.length)];
