@@ -3,7 +3,7 @@ const rimraf = require("rimraf");
 
 const trainings = require("../data/training.json");
 const basePath = "/api";
-const baseUrl = `https://restapi.reactgraphql.academy${basePath}`;
+const baseUrl = `https://api.reactgraphql.academy${basePath}`;
 
 let dir = `${__dirname}/../public${basePath}`;
 rimraf.sync(dir);
