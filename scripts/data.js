@@ -9,18 +9,19 @@ if (!fs.existsSync(dir)) {
   fs.mkdirSync(dir);
 }
 
-let basePath = "/api";
+// let basePath = "/api";
+let basePath = "/rest";
 dir = `${dir}${basePath}`;
 rimraf.sync(dir);
 fs.mkdirSync(dir);
 
-basePath = basePath + "/rest";
-dir = dir + "/rest";
+// basePath = basePath + "/rest";
+// dir = dir + "/rest";
 
-if (!fs.existsSync(dir)) {
-  fs.mkdirSync(dir);
-} else {
-}
+// if (!fs.existsSync(dir)) {
+//   fs.mkdirSync(dir);
+// } else {
+// }
 
 const baseUrl = `https://api.reactgraphql.academy${basePath}`;
 
